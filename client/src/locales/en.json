@@ -1,0 +1,96 @@
+{
+  "app": {
+    "title": "Engineering Authority Guest House",
+    "welcome": "Welcome"
+  },
+  "nav": {
+    "home": "Home",
+    "menus": "Menus",
+    "orders": "My Orders",
+    "padel": "Book Padel",
+    "admin": "Admin",
+    "language": "Language"
+  },
+  "menu": {
+    "browse": "Browse Menus",
+    "allVenues": "All Venues",
+    "addToCart": "Add to Cart",
+    "cart": "Cart",
+    "emptyCart": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Checkout",
+    "categories": "Categories"
+  },
+  "order": {
+    "newOrder": "New Order",
+    "myOrders": "My Orders",
+    "orderDetails": "Order Details",
+    "status": "Status",
+    "location": "Location",
+    "tableNumber": "Table Number",
+    "customerName": "Name",
+    "customerPhone": "Phone",
+    "paymentMethod": "Payment Method",
+    "notes": "Notes",
+    "placeOrder": "Place Order",
+    "orderPlaced": "Order Placed Successfully!",
+    "estimatedTime": "Estimated Delivery",
+    "paymentNote": "Payment will be collected in person when order is delivered",
+    "statuses": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "preparing": "Preparing",
+      "ready": "Ready",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "paymentMethods": {
+      "cash": "Cash",
+      "creditCard": "Credit Card",
+      "clubCard": "Club Card",
+      "roomCharge": "Room Charge"
+    },
+    "sortBy": "Sort by",
+    "sort": {
+      "recent": "Most Recent",
+      "venueAZ": "Venue A → Z",
+      "venueZA": "Venue Z → A"
+    },
+    "filterByVenue": "Venue"
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "orders": "Orders Management",
+    "menus": "Menu Management",
+    "updateStatus": "Update Status",
+    "noOrders": "No orders yet",
+    "orderHistory": "Order History",
+    "popularItems": "Popular Items"
+  },
+  "padel": {
+    "bookCourt": "Book Padel Court",
+    "selectDate": "Select Date",
+    "selectTime": "Select Time",
+    "selectCourt": "Select Court",
+    "available": "Available",
+    "booked": "Booked",
+    "blocked": "Blocked",
+    "bookNow": "Book Now",
+    "myBookings": "My Bookings",
+    "adminMode": "Admin Mode: Click on time slots to block/unblock availability"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "quantity": "Quantity",
+    "price": "Price",
+    "remove": "Remove"
+  }
+}
+

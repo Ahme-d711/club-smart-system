@@ -1,0 +1,158 @@
+.menus-page {
+  width: 100%;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.venue-selector {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.venue-btn {
+  padding: 12px 24px;
+  border: 2px solid #667eea;
+  background: white;
+  color: #667eea;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.venue-btn:hover {
+  background: #f0f0ff;
+}
+
+.venue-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: transparent;
+}
+
+.category-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.category-btn {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background: white;
+  color: #666;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.category-btn:hover {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.category-btn.active {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.menu-item-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* image removed from menu items */
+
+.item-info {
+  padding: 20px;
+}
+
+.item-info h3 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.item-description {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.item-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.add-to-cart-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.add-to-cart-btn:hover {
+  transform: scale(1.05);
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .menu-items {
+    grid-template-columns: 1fr;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .venue-selector {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+}
+

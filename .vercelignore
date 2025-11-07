@@ -1,0 +1,8 @@
+node_modules
+server
+*.md
+.git
+.env
+server/data
+server/uploads
+

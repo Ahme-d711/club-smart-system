@@ -1,0 +1,96 @@
+{
+  "app": {
+    "title": "دار الهيئة الهندسية",
+    "welcome": "مرحباً"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "menus": "القوائم",
+    "orders": "طلباتي",
+    "padel": "حجز بادل",
+    "admin": "الإدارة",
+    "language": "اللغة"
+  },
+  "menu": {
+    "browse": "تصفح القوائم",
+    "allVenues": "جميع الأماكن",
+    "addToCart": "أضف للسلة",
+    "cart": "السلة",
+    "emptyCart": "السلة فارغة",
+    "total": "المجموع",
+    "checkout": "إتمام الطلب",
+    "categories": "الفئات"
+  },
+  "order": {
+    "newOrder": "طلب جديد",
+    "myOrders": "طلباتي",
+    "orderDetails": "تفاصيل الطلب",
+    "status": "الحالة",
+    "location": "الموقع",
+    "tableNumber": "رقم الطاولة",
+    "customerName": "الاسم",
+    "customerPhone": "الهاتف",
+    "paymentMethod": "طريقة الدفع",
+    "notes": "ملاحظات",
+    "placeOrder": "تأكيد الطلب",
+    "orderPlaced": "تم إرسال الطلب بنجاح!",
+    "estimatedTime": "وقت التوصيل المتوقع",
+    "paymentNote": "سيتم جمع الدفع عند التوصيل",
+    "statuses": {
+      "pending": "قيد الانتظار",
+      "confirmed": "مؤكد",
+      "preparing": "قيد التحضير",
+      "ready": "جاهز",
+      "delivered": "تم التوصيل",
+      "cancelled": "ملغي"
+    },
+    "paymentMethods": {
+      "cash": "نقدي",
+      "creditCard": "بطاقة ائتمانية",
+      "clubCard": "بطاقة النادي",
+      "roomCharge": "شحن على الغرفة"
+    },
+    "sortBy": "ترتيب حسب",
+    "sort": {
+      "recent": "الأحدث",
+      "venueAZ": "الموقع أ → ي",
+      "venueZA": "الموقع ي → أ"
+    },
+    "filterByVenue": "الموقع"
+  },
+  "admin": {
+    "dashboard": "لوحة التحكم",
+    "orders": "إدارة الطلبات",
+    "menus": "إدارة القوائم",
+    "updateStatus": "تحديث الحالة",
+    "noOrders": "لا توجد طلبات بعد",
+    "orderHistory": "سجل الطلبات",
+    "popularItems": "الأصناف الشائعة"
+  },
+  "padel": {
+    "bookCourt": "حجز ملعب بادل",
+    "selectDate": "اختر التاريخ",
+    "selectTime": "اختر الوقت",
+    "selectCourt": "اختر الملعب",
+    "available": "متاح",
+    "booked": "محجوز",
+    "blocked": "مغلق",
+    "bookNow": "احجز الآن",
+    "myBookings": "حجوزاتي",
+    "adminMode": "وضع الإدارة: انقر على الأوقات لحظر/إلغاء حظر التوفر"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "quantity": "الكمية",
+    "price": "السعر",
+    "remove": "إزالة"
+  }
+}
+
