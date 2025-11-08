@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.0",
-    "react-scripts": "5.0.1",
-    "socket.io-client": "^4.6.1",
     "axios": "^1.6.2",
     "i18next": "^23.7.6",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "multer": "^2.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-i18next": "^13.5.0",
-    "i18next-browser-languagedetector": "^7.2.0"
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,4 +39,3 @@
   },
   "proxy": "http://localhost:5000"
 }
-
