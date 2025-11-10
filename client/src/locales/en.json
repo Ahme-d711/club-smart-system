@@ -47,8 +47,7 @@
     "paymentMethods": {
       "cash": "Cash",
       "creditCard": "Credit Card",
-      "clubCard": "Club Card",
-      "roomCharge": "Room Charge"
+      "clubCard": "Club Card"
     },
     "sortBy": "Sort by",
     "sort": {

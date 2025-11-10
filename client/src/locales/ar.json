@@ -47,8 +47,7 @@
     "paymentMethods": {
       "cash": "نقدي",
       "creditCard": "بطاقة ائتمانية",
-      "clubCard": "بطاقة النادي",
-      "roomCharge": "شحن على الغرفة"
+      "clubCard": "بطاقة النادي"
     },
     "sortBy": "ترتيب حسب",
     "sort": {

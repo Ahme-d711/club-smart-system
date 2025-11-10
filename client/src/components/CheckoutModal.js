@@ -147,7 +147,6 @@ const CheckoutModal = ({ onClose }) => {
               <option value="cash">{t('order.paymentMethods.cash')}</option>
               <option value="credit-card">{t('order.paymentMethods.creditCard')}</option>
               <option value="club-card">{t('order.paymentMethods.clubCard')}</option>
-              <option value="room-charge">{t('order.paymentMethods.roomCharge')}</option>
             </select>
           </div>
 
